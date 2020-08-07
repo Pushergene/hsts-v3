@@ -1,0 +1,19 @@
+
+{
+	"name":	"KB SSL Enforcer",
+	"version":	"2.0.5",
+	"description":	"Automatic security, browse encrypted.",
+	"manifest_version":	3,
+	"permissions":	["*://*/", "tabs", "declarativeNetRequest", "declarativeNetRequest"],
+	"icons":	{ "128":	"icon.png" },
+	"options_page":	"options.html",
+	"minimum_chrome_version":	"17",
+	"action":	{
+	 "default_icon":	"icon19.png",
+	 "default_title":	"KB SSL Enforcer",
+	 "default_popup":	"popup.html"
+	},
+	"background":	{
+	 "service_worker":	"background.js"
+	}
+}
